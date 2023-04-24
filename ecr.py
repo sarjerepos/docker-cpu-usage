@@ -1,9 +1,7 @@
 import boto3
 
-ecr_client = boto3.client("ecr",
-                        aws_access_key_id = 'AKIAQZRJPNWZJ6NOG74K',
-                        aws_secret_access_key = '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',
-                        region_name = 'us-east-1'
+ecr_client = boto3.client("ecr",                      
+                         region_name = 'us-east-1'
                           )
 
 repository_name = "ms-usage-repo"
